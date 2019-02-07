@@ -1,0 +1,216 @@
+/* this is the css file for index.html */
+
+h1{
+    color: blue;
+    /* background-color: coral; */
+}
+
+p{
+    color: green;
+    font-size: 18px;
+    /* background-color: yellow; */
+    font-weight: bold;
+
+}
+
+/* define id */
+
+#first{
+    color: red;
+    background-color: grey;
+}
+
+
+#firstp,#firstp{
+    color: blue;
+    background-color: black;
+
+}
+
+/* define class */
+
+.chrome{
+    color: black;
+    background-color: darkblue;
+
+
+
+}
+
+.londonheader{
+    color: black;
+    background-color: darkblue;
+    text-align: center;
+    font-size: 10ex;
+    border: 7px solid gray;
+    padding-right: 0px;
+    margin-right: -13px;
+
+
+}
+
+.londonparagraph{
+    color: darkblue;
+    background-color: lightblue;
+    text-align: center;
+    height: 600px;
+    border: 10px solid gray;
+    padding-right: 0px;
+    margin-right: -13px;
+}
+
+
+
+#divcontent1{
+    /* width: 500px; */
+    width: 95%;
+    height: 95%x;
+    border: 20px solid gray;
+    background-color: lightgoldenrodyellow;
+    padding-right: 10px;
+    /* float: left; */
+}
+
+#divcontent2{
+    /* width: 500px; */
+    width: 46%;
+    height: 2000px;
+    border: 20px solid gray;
+    background-color: lightgoldenrodyellow;
+    padding-right: 10px;
+    /* float: right; */
+}
+
+
+div:hover{
+    width: 500px; 
+    width: 60%;
+    height: 2000px;
+    border: 10px solid gray;
+    background-color: red;
+    padding-right: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* border-radius: 25px; */
+    border-radius: 25px 20px 10px 5px;
+}
+
+
+/* img{
+style:border:0px solid red;  
+title:Flower1;   
+alt:Flower;  
+width:300;  
+height:520; 
+float:right; 
+} */
+
+#londonimg{
+    width:100px;  
+    height:170px; 
+    float:left; 
+    border: 10px solid gray;
+    padding-right: 0px;
+    margin-right: 0px;
+    opacity: 0.2;
+    box-shadow: 5px 10px lightslategray;
+
+    }
+    #londonimg:hover{
+        opacity:1;
+    }
+
+.hamburgimg{
+    title:Flower1;   
+    alt:Flower;  
+    width:400;  
+    height:120; 
+    /* float:right;  */
+     border: 10px solid blue;
+    padding-right: 0px;
+    margin-right: 0px;    
+        }
+    
+
+
+body{
+
+
+
+
+}
+
+
+a{
+color: darkgoldenrod;
+
+}
+
+a:hover{
+    color: red;
+
+
+}
+
+#header{
+    width: 100%;
+    height: 200px;
+    border: 1px solid blueviolet;
+    background-color: red;
+    padding-right: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-bottom: 0px solid blueviolet;
+    background-image: linear-gradient(red, yellow, green);
+    background-image: url(img/imgheader.jpg);
+    background-size: 600px 200px;
+    /* background-repeat: repeat-y; */
+
+}
+
+#hamburgparagraph{
+    color: darkgoldenrod;
+    width: 100%;
+    height: 200px;
+    border: 0px solid blueviolet;
+    /* background-color: blue; */
+    padding-right: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-bottom: 0px solid blueviolet;
+
+}
+
+
+#hamburgheader{
+    width: 100%;
+    /* height: 200px; */
+    border: 0px solid blueviolet;
+    color: darkgoldenrod;
+    background-color: none;
+    padding-right: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-bottom: 0px solid blueviolet;
+
+}
+
+
+#footer{
+    width: 100%;
+    height: 200px;
+    border: 1px solid blueviolet;
+    background-color: red;
+    padding-right: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-bottom: 0px solid blueviolet;
+    background-image: linear-gradient(red, yellow, green);
+    background-image: url(img/imgheader.jpg);
+    background-size: 600px 200px;
+    /* background-repeat: repeat-y; */
+}
+
+
+
+
+
+img:hover{
+    
+    border:1px soliod green;
+}
