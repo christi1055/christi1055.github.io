@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>javascript</title>
+    <link rel="stylesheet" href="css2/style.css">
+    
+
+
+</head>
+
+<body onload="">
+    <p id="first" class="para">Welcome to Javascript</p>
+    <p  class="para">the second paragraph</p>
+    <p  class="para">the third paragraph</p>
+    <button onclick="
+        document.getElementById('first').innerHTML
+        =''">
+        Clear </button>
+    <button onmouseover="document.getElementById('img').style.display='block';"
+        onmouseout="document.getElementById('img').style.display ='none';" on>
+        Show the image</button>
+
+    <p> <img id="img" src="2.jpg" alt=""></p>
+
+
+    <button onclick="document.getElementById('img').style.display
+           ='none';">Hide the image</button>
+    <!-- <button id="showhide" onclick="showhide()"> Show / Hide</button> -->
+    <button id="j" onclick="changestyle()">change Body Color</button>
+    <button onclick="welcome('Mansour','Tumeh')">Change the language</button>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>
