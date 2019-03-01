@@ -1,0 +1,260 @@
+#grad1 {
+    /* height: 900px; */
+
+    /* background-color: blue;  */
+    /* For browsers that do not support gradients */
+    background: url(park2.png) 300px 560px no-repeat,linear-gradient(lightblue, blue, lightblue); 
+    /* Standard syntax (must be last) */
+    /* background: linear-gradient(lightblue, blue, lightblue); Standard syntax (must be last) */
+    }
+
+/* #image{
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    } */
+
+
+
+
+#content{
+    width: 100%;
+    height: 80%;   
+    }
+
+
+    
+    .menu ul{
+        list-style-type: none;
+        height: 70px;
+    }
+    
+    .menu ul li{
+        background-color: none;
+        width: 200px;
+        float: right;
+        /* text-align: center; */
+        border-right: 1px solid none;
+        height: 70px;
+    }
+    
+    .menu ul li a{
+        background-color: none;
+        width: 200px;
+        /* float: left; */
+        /* display: block; */
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #0000EE;
+    }
+    
+    .menu ul li a:hover{
+        background-color: blue;
+        color: white;
+        border-radius: 10px;
+    }
+    
+    #div1{
+        clear: both;
+    }
+
+
+h1{
+    font-family: Impact, Charcoal, sans-serif;
+    text-align: center;
+    font-style: italic;
+    font-size: 800%
+}
+
+h4{
+    font-family: Impact, Charcoal, sans-serif;
+    /* text-align: center; */
+    color: red;
+    font-size: 200%;
+    text-decoration: underline;
+}
+
+p{
+    text-align: center;
+}
+    
+#linde1{
+    height: 300px;
+    position: relative;
+    /* position: absolute; */
+    top: 20px;
+    left: 600px;
+    z-index: -1;
+}
+#kastanie1{
+    height: 300px;
+    position: relative;
+    /* position: absolute; */
+    top: 20px;
+    left: 400px;
+    z-index: -1;
+}
+#kokosnuss1{
+    height: 300px;
+    position: relative;
+    /* position: absolute; */
+    top: 20px;
+    left: 200px;
+    z-index: -1;
+}
+
+
+#space1{
+    height: 380px;
+}
+
+
+#linde2{
+    height: 300px;
+    width: 185px;
+    position: absolute;
+    /* position: absolute; */
+    top: 950px;
+    left: 226px;
+    z-index: 0;
+}
+#kastanie2{
+    height: 300px;
+    width: 185px;
+    position: absolute;
+    /* position: absolute; */
+    top: 950px;
+    left: 650px;
+    z-index: 1;
+}
+#kokosnuss2{
+    height: 300px;
+    width: 185px;
+    position: absolute;
+    /* position: absolute; */
+    top: 950px;
+    left: 1082px;
+    /* transform: rotate(90deg); */
+    z-index: 2;
+}
+
+#space2{
+    height: 0px;
+}
+
+#floatright{
+    float: right;
+    text-decoration: underline;
+}
+
+#button1{    
+    position: absolute;
+    top: 1050px;
+    left: 490px;
+    z-index: 3;
+    /* border-radius: 90px;
+    border: 1px solid black; */
+}
+
+#button2{    
+    position: absolute;
+    top: 1050px;
+    left: 910px;
+    z-index: 3;
+}
+
+p{
+    font-size: 200%;
+    font-family: Impact, Charcoal, sans-serif;
+}
+
+
+input[type=submit] {
+    width: 180px;
+    height: 180px;
+    background-color: red;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 90px;
+    cursor: pointer;
+    position: absolute;
+    top: 820px;
+    left: 1310px;
+    z-index: 4;
+    /* font-family: "Comic Sans MS", cursive, sans-serif; */
+    font-family: Impact, Charcoal, sans-serif;
+    font-size: 200%;
+    font-style: italic;
+    border: 6px solid black;
+  }
+  
+  input[type=submit]:hover {
+    background-color: darkred;
+  }
+
+
+/* #mydiv{
+    width: 400px;
+    height: 400px;
+    animation: andiv 1s infinite, an1 1s infinite;
+}
+
+@keyframes an1{
+    from{background: red;}
+    to{background: blue;}
+}
+
+@keyframes andiv{
+    from{font-size: 15px;}
+    to{font-size: 30px;}
+} */
+
+
+
+#answerdiv{
+    /* display: none; */
+    /* animation: answeranimation 5s; */
+    position: absolute;
+    top: 800px;
+    left: 400px;
+    font-size: 0px;
+    transform: rotate(5deg);
+    z-index: 4;
+}
+
+@keyframes answeranimation{
+    from{font-size: 0px;}
+    to{font-size: 400px;
+        animation-name: answeranimation;
+        animation-duration: 5s;
+        animation-timing-function: ease;
+        animation-delay: 0s;
+        animation-iteration-count: 1;
+        animation-direction: normal;
+        animation-fill-mode: none;
+        animation-play-state: running;
+          
+    
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
